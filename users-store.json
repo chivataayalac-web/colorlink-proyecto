@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@colorlink.com",
+      "fullName": "Ing. Carlos Mendoza (Asesor Administrador)",
+      "role": "ADMIN",
+      "password": "Admin2026*",
+      "companyName": "COLORLINK Central",
+      "docNumber": "800123456",
+      "phone": "3159876543",
+      "isActive": true,
+      "createdAt": "2026-10-29T20:56:49.879Z"
+    },
+    {
+      "id": 2,
+      "email": "asesor@colorlink.com",
+      "fullName": "María Elena Gómez (Asesora Comercial)",
+      "role": "ADMIN",
+      "password": "Admin2026*",
+      "companyName": "COLORLINK Central",
+      "docNumber": "800654321",
+      "phone": "3109876543",
+      "isActive": true,
+      "createdAt": "2026-10-29T20:56:49.879Z"
+    },
+    {
+      "id": 3,
+      "email": "tecnico@colorlink.com",
+      "fullName": "Arq. David Valencia (Especialista Técnico)",
+      "role": "ADMIN",
+      "password": "Admin2026*",
+      "companyName": "COLORLINK Central",
+      "docNumber": "800789123",
+      "phone": "3123456789",
+      "isActive": true,
+      "createdAt": "2026-10-29T20:56:49.879Z"
+    },
+    {
+      "id": 4,
+      "email": "cliente@constructora.com",
+      "fullName": "Constructora Aliada (Cliente)",
+      "role": "CLIENTE",
+      "password": "Cliente2026*",
+      "companyName": "Constructora Aliada S.A.S.",
+      "docNumber": "900852147",
+      "phone": "3104567890",
+      "isActive": true,
+      "createdAt": "2026-10-29T20:56:49.879Z"
+    },
+    {
+      "id": 5,
+      "email": "testuser@constructora.com",
+      "fullName": "Juan Pérez Prueba",
+      "role": "CLIENTE",
+      "password": "Password123*",
+      "companyName": "Juan Pérez Prueba",
+      "docNumber": "1010202030",
+      "phone": "3198765432",
+      "isActive": true,
+      "createdAt": "2026-10-29T20:56:57.237Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "docType": "NIT",
+      "docNumber": "900.987.654-3",
+      "companyName": "Constructora San Juan S.A.S.",
+      "contactPerson": "Ing. Roberto Gómez",
+      "email": "contacto@constructorasanjuan.com",
+      "phone": "+57 310 456 7890",
+      "entryChannel": "PORTAL_WEB",
+      "dataConsent": true,
+      "createdAt": "2026-10-29T20:56:49.879Z"
+    },
+    {
+      "id": 2,
+      "docType": "NIT",
+      "docNumber": "890.100.200-1",
+      "companyName": "Inmobiliaria El Poblado S.A.S.",
+      "contactPerson": "Laura Gómez",
+      "email": "contacto@elpobladoinm.com",
+      "phone": "+57 300 888 1234",
+      "entryChannel": "VISITA_TECNICA",
+      "dataConsent": true,
+      "createdAt": "2026-10-24T20:56:49.879Z"
+    },
+    {
+      "id": 3,
+      "docType": "NIT",
+      "docNumber": "1010202030",
+      "companyName": "Juan Pérez Prueba",
+      "contactPerson": "Juan Pérez Prueba",
+      "email": "testuser@constructora.com",
+      "phone": "3198765432",
+      "entryChannel": "REGISTRO_PORTAL_WEB",
+      "dataConsent": true,
+      "createdAt": "2026-10-29T20:56:57.237Z"
+    }
+  ]
+}

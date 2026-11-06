@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  # Official MySQL 8 Database
+  mysql_db:
+    image: mysql:8.0
+    container_name: colorlink_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_super_password_2026
+      MYSQL_DATABASE: colorlink_db
+      MYSQL_USER: colorlink_user
+      MYSQL_PASSWORD: colorlink_pass_2026
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "colorlink_user", "-pcolorlink_pass_2026"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # FastAPI Backend Service
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: colorlink_fastapi
+    restart: always
+    environment:
+      - MYSQL_SERVER=mysql_db
+      - MYSQL_PORT=3306
+      - MYSQL_USER=colorlink_user
+      - MYSQL_PASSWORD=colorlink_pass_2026
+      - MYSQL_DB=colorlink_db
+      - SECRET_KEY=colorlink_super_secret_jwt_key_2026_change_in_production
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    ports:
+      - "8000:8000"
+    depends_on:
+      mysql_db:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+      - upload_data:/app/uploads
+
+  # Streamlit Frontend Service
+  frontend:
+    build:
+      context: ./frontend_streamlit
+      dockerfile: Dockerfile
+    container_name: colorlink_streamlit
+    restart: always
+    environment:
+      - BACKEND_API_URL=http://backend:8000/api/v1
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+
+volumes:
+  mysql_data:
+  upload_data:

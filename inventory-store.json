@@ -1,0 +1,536 @@
+{
+  "items": [
+    {
+      "id": 9,
+      "sku": "CL-POL-MAR",
+      "name": "COLORLINK Esmalte Poliuretano Marino",
+      "category": "MADERAS_METALES",
+      "categoryLabel": "Esmaltes & Maderas",
+      "surfaceCompatibility": [
+        "concreto",
+        "estuco",
+        "mamposteria"
+      ],
+      "yieldM2PerGal": 36,
+      "recommendedCoats": 2,
+      "unit": "GALON",
+      "stockQty": 120,
+      "stockGalon": 39,
+      "stockCunete": 15,
+      "stockCuarto": 22,
+      "unitPriceCop": 92000,
+      "description": "Esmalte poliuretano de alta resistencia para ambientes marinos y maderas exteriores.",
+      "image": "/images/hero_colorlink_living_1791220882424.jpg",
+      "rating": 5,
+      "features": [
+        "Rendimiento certificado para obra",
+        "Alta resistencia y durabilidad garantizada",
+        "Garantía oficial de fábrica COLORLINK"
+      ],
+      "availableColors": [
+        {
+          "id": "color-custom-1791557259808-0",
+          "name": "Blanco Náutico",
+          "hex": "#FFFFFF",
+          "isAvailable": true
+        },
+        {
+          "id": "color-custom-1791557259808-1",
+          "name": "Azul Marino Profundo",
+          "hex": "#001F3F",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "sku": "CL-VIN-AVANZ",
+      "name": "COLORLINK Vinil Acrílico Tipo 1 - Máxima Lavabilidad",
+      "category": "ACABADO_INTERIOR",
+      "categoryLabel": "Pinturas de Interior",
+      "surfaceCompatibility": [
+        "estuco",
+        "yeso",
+        "concreto",
+        "drywall"
+      ],
+      "yieldM2PerGal": 35,
+      "recommendedCoats": 2,
+      "unit": "GALON",
+      "stockQty": 240,
+      "unitPriceCop": 78900,
+      "description": "Pintura base agua tipo 1 con tecnología de resistencia a manchas, 100% lavable y cero olor. Ideal para salas, alcobas y áreas interiores de alto tránsito.",
+      "image": "/images/hero_colorlink_living_1791220882424.jpg",
+      "rating": 4.9,
+      "features": [
+        "Super lavable > 3000 ciclos",
+        "Cero olor y bajo VOC",
+        "Garantía de cubrimiento en 2 manos"
+      ],
+      "availableColors": [
+        {
+          "id": "blanco-nieve",
+          "name": "Blanco Nieve",
+          "hex": "#F8FAFC",
+          "border": "#E2E8F0",
+          "isAvailable": true
+        },
+        {
+          "id": "gris-platino",
+          "name": "Gris Platino",
+          "hex": "#D1D5DB",
+          "isAvailable": true
+        },
+        {
+          "id": "arena-sahara",
+          "name": "Arena Sahara",
+          "hex": "#E5D3B3",
+          "isAvailable": true
+        },
+        {
+          "id": "azul-oceano",
+          "name": "Azul Océano",
+          "hex": "#2563EB",
+          "isAvailable": false
+        },
+        {
+          "id": "verde-salvia",
+          "name": "Verde Salvia",
+          "hex": "#84A98C",
+          "isAvailable": false
+        }
+      ],
+      "stockGalon": 85,
+      "stockCunete": 28,
+      "stockCuarto": 60
+    },
+    {
+      "id": 2,
+      "sku": "CL-FACH-10",
+      "name": "COLORLINK Fachada Pro 10 Años - Exteriores & Muros",
+      "category": "ACABADO_FINAL",
+      "categoryLabel": "Fachadas & Exteriores",
+      "surfaceCompatibility": [
+        "concreto",
+        "mamposteria",
+        "ladrillo",
+        "revoque"
+      ],
+      "yieldM2PerGal": 28,
+      "recommendedCoats": 2,
+      "unit": "GALON",
+      "stockQty": 188,
+      "unitPriceCop": 104500,
+      "description": "Recubrimiento acrílico de alta resistencia con tecnología hidro-repelente que evita la penetración de agua de lluvia y protege contra algas y hongos por 10 años.",
+      "image": "/images/colorlink_facade_house_1791220891685.jpg",
+      "rating": 5,
+      "features": [
+        "Garantía 10 años",
+        "Filtro solar UV de larga duración",
+        "Autolavable con agua de lluvia"
+      ],
+      "availableColors": [
+        {
+          "id": "gris-urbano",
+          "name": "Gris Urbano",
+          "hex": "#6B7280",
+          "isAvailable": true
+        },
+        {
+          "id": "terracota-colonial",
+          "name": "Terracota Colonial",
+          "hex": "#C85A32",
+          "isAvailable": true
+        },
+        {
+          "id": "blanco-hueso",
+          "name": "Blanco Hueso",
+          "hex": "#F5F5DC",
+          "border": "#E2E8F0",
+          "isAvailable": true
+        },
+        {
+          "id": "trigo-silvestre",
+          "name": "Trigo Silvestre",
+          "hex": "#E3C565",
+          "isAvailable": false
+        },
+        {
+          "id": "grafito-profundo",
+          "name": "Grafito Profundo",
+          "hex": "#374151",
+          "isAvailable": false
+        }
+      ],
+      "stockGalon": 65,
+      "stockCunete": 22,
+      "stockCuarto": 51
+    },
+    {
+      "id": 3,
+      "sku": "CL-IMP-TERRAZA",
+      "name": "COLORLINK Poliuretano Cubiertas & Terrazas Transitables",
+      "category": "IMPERMEABILIZACION",
+      "categoryLabel": "Impermeabilización",
+      "surfaceCompatibility": [
+        "concreto",
+        "metal",
+        "mortero"
+      ],
+      "yieldM2PerGal": 18,
+      "recommendedCoats": 2,
+      "unit": "GALON",
+      "stockQty": 79,
+      "unitPriceCop": 138000,
+      "description": "Membrana líquida continua de poliuretano elástico de secado ultra rápido para impermeabilizar losas, techos, terrazas y cubiertas con tráfico peatonal.",
+      "image": "/images/colorlink_waterproof_terrace_1791220900520.jpg",
+      "rating": 4.9,
+      "features": [
+        "Resistente al encharcamiento continuo",
+        "Elongación 400%",
+        "Sin juntas ni soldaduras"
+      ],
+      "availableColors": [
+        {
+          "id": "blanco-termico",
+          "name": "Blanco Reflectivo Térmico",
+          "hex": "#FFFFFF",
+          "border": "#E2E8F0",
+          "isAvailable": true
+        },
+        {
+          "id": "gris-cemento",
+          "name": "Gris Cemento",
+          "hex": "#9CA3AF",
+          "isAvailable": true
+        },
+        {
+          "id": "teja-terracota",
+          "name": "Teja Terracota",
+          "hex": "#B91C1C",
+          "isAvailable": true
+        },
+        {
+          "id": "verde-tenis",
+          "name": "Verde Tenis",
+          "hex": "#15803D",
+          "isAvailable": false
+        },
+        {
+          "id": "negro-membrana",
+          "name": "Negro Membrana",
+          "hex": "#1F2937",
+          "isAvailable": false
+        }
+      ],
+      "stockGalon": 28,
+      "stockCunete": 9,
+      "stockCuarto": 22
+    },
+    {
+      "id": 4,
+      "sku": "CL-ESM-BRILL",
+      "name": "COLORLINK Esmalte Sintético Brillante Maderas & Metales",
+      "category": "MADERAS_METALES",
+      "categoryLabel": "Maderas & Metales",
+      "surfaceCompatibility": [
+        "madera",
+        "metal",
+        "acero"
+      ],
+      "yieldM2PerGal": 32,
+      "recommendedCoats": 2,
+      "unit": "GALON",
+      "stockQty": 113,
+      "unitPriceCop": 64900,
+      "description": "Esmalte alquídico de acabado brillante con alta nivelación y poder anticorrosivo. Brinda máxima protección contra la corrosión en puertas, rejas y ventanas.",
+      "image": "/images/hero_architectural_finishes_1790441059351.jpg",
+      "rating": 4.8,
+      "features": [
+        "Anticorrosivo activo",
+        "Brillo espejo duradero",
+        "Fácil aplicación a brocha o rodillo"
+      ],
+      "availableColors": [
+        {
+          "id": "negro-ebano",
+          "name": "Negro Ébano",
+          "hex": "#111827",
+          "isAvailable": true
+        },
+        {
+          "id": "blanco-puro",
+          "name": "Blanco Puro",
+          "hex": "#FFFFFF",
+          "border": "#E2E8F0",
+          "isAvailable": true
+        },
+        {
+          "id": "azul-real",
+          "name": "Azul Real",
+          "hex": "#1D4ED8",
+          "isAvailable": true
+        },
+        {
+          "id": "rojo-carmesi",
+          "name": "Rojo Carmesí",
+          "hex": "#DC2626",
+          "isAvailable": false
+        },
+        {
+          "id": "verde-bosque",
+          "name": "Verde Bosque",
+          "hex": "#14532D",
+          "isAvailable": false
+        }
+      ],
+      "stockGalon": 40,
+      "stockCunete": 13,
+      "stockCuarto": 31
+    },
+    {
+      "id": 5,
+      "sku": "MAS-ELAST-01",
+      "name": "Masilla Elastomérica Sellagrietas Pro",
+      "category": "TRATAMIENTO_FISURAS",
+      "categoryLabel": "Tratamiento de Fisuras",
+      "surfaceCompatibility": [
+        "concreto",
+        "mamposteria",
+        "estuco"
+      ],
+      "yieldM2PerGal": 20,
+      "recommendedCoats": 1,
+      "unit": "GALON",
+      "stockQty": 111,
+      "unitPriceCop": 34500,
+      "description": "Formulación acrílica elastomérica de alto puenteo para sellado permanente de microfisuras y grietas activas en fachadas y muros.",
+      "image": "/images/product_elastic_putty_sealant_1790441031038.jpg",
+      "rating": 4.9,
+      "features": [
+        "Elongación hasta 350%",
+        "Excelente adherencia",
+        "Secado rápido al tacto"
+      ],
+      "availableColors": [
+        {
+          "id": "blanco-pasta",
+          "name": "Blanco Estándar",
+          "hex": "#F8FAFC",
+          "border": "#E2E8F0",
+          "isAvailable": true
+        },
+        {
+          "id": "gris-mortero",
+          "name": "Gris Mortero",
+          "hex": "#D1D5DB",
+          "isAvailable": true
+        },
+        {
+          "id": "arena-fina",
+          "name": "Arena Fina",
+          "hex": "#F3E8D2",
+          "isAvailable": true
+        },
+        {
+          "id": "terracota-sellador",
+          "name": "Terracota Sellador",
+          "hex": "#B45309",
+          "isAvailable": false
+        },
+        {
+          "id": "negro-juntas",
+          "name": "Negro Dilatación",
+          "hex": "#374151",
+          "isAvailable": false
+        }
+      ],
+      "stockGalon": 38,
+      "stockCunete": 13,
+      "stockCuarto": 30
+    },
+    {
+      "id": 6,
+      "sku": "SEL-ANTI-HUM-01",
+      "name": "Sellador Antihumedad e Hidrofugante Acrílico",
+      "category": "IMPRIMACION_SELLADO",
+      "categoryLabel": "Imprimación & Sellado",
+      "surfaceCompatibility": [
+        "concreto",
+        "mamposteria"
+      ],
+      "yieldM2PerGal": 30,
+      "recommendedCoats": 1,
+      "unit": "GALON",
+      "stockQty": 85,
+      "unitPriceCop": 78900,
+      "description": "Barrera química de penetración profunda que neutraliza la alcalinidad del sustrato y bloquea el paso de humedad por capilaridad.",
+      "image": "/images/product_exterior_acrylic_paint_1790441011787.jpg",
+      "rating": 4.8,
+      "features": [
+        "Bloqueo de eflorescencias",
+        "Base agua ecológica",
+        "Micro-sellado molecular"
+      ],
+      "availableColors": [
+        {
+          "id": "transparente",
+          "name": "Transparente Hidrófugo",
+          "hex": "#E0F2FE",
+          "border": "#BAE6FD",
+          "isAvailable": true
+        },
+        {
+          "id": "blanco-base",
+          "name": "Blanco Bloqueador",
+          "hex": "#FFFFFF",
+          "border": "#E2E8F0",
+          "isAvailable": true
+        },
+        {
+          "id": "gris-imprimante",
+          "name": "Gris Imprimante",
+          "hex": "#CBD5E1",
+          "isAvailable": true
+        },
+        {
+          "id": "amarillo-neutral",
+          "name": "Ocre Neutral",
+          "hex": "#FEF08A",
+          "isAvailable": false
+        },
+        {
+          "id": "verde-antimoho",
+          "name": "Verde Antimoho",
+          "hex": "#BBF7D0",
+          "isAvailable": false
+        }
+      ],
+      "stockGalon": 29,
+      "stockCunete": 10,
+      "stockCuarto": 22
+    },
+    {
+      "id": 7,
+      "sku": "ESM-EPOX-01",
+      "name": "Esmalte Epóxico Alto Tráfico para Pisos Industriales",
+      "category": "PISOS_INDUSTRIALES",
+      "categoryLabel": "Pisos & Tráfico",
+      "surfaceCompatibility": [
+        "concreto",
+        "metal"
+      ],
+      "yieldM2PerGal": 22,
+      "recommendedCoats": 2,
+      "unit": "GALON",
+      "stockQty": 62,
+      "unitPriceCop": 145000,
+      "description": "Sistema epóxico bicomponente de alto tráfico con excelente resistencia al derrame químico, aceites y paso de montacargas y vehículos.",
+      "image": "/images/product_waterproof_polyurethane_1790441045750.jpg",
+      "rating": 4.8,
+      "features": [
+        "Acabado vitrificado",
+        "Resistencia química severa",
+        "Fácil desinfección sanitaria"
+      ],
+      "availableColors": [
+        {
+          "id": "gris-industrial",
+          "name": "Gris Industrial Claro",
+          "hex": "#9CA3AF",
+          "isAvailable": true
+        },
+        {
+          "id": "gris-trafico",
+          "name": "Gris Tráfico Oscuro",
+          "hex": "#4B5563",
+          "isAvailable": true
+        },
+        {
+          "id": "amarillo-seguridad",
+          "name": "Amarillo Seguridad",
+          "hex": "#EAB308",
+          "isAvailable": true
+        },
+        {
+          "id": "azul-bodega",
+          "name": "Azul Bodega",
+          "hex": "#1E40AF",
+          "isAvailable": false
+        },
+        {
+          "id": "verde-epoxico",
+          "name": "Verde Epóxico",
+          "hex": "#16A34A",
+          "isAvailable": false
+        }
+      ],
+      "stockGalon": 17,
+      "stockCunete": 8,
+      "stockCuarto": 20
+    },
+    {
+      "id": 8,
+      "sku": "ESTUCO-LISTO-25K",
+      "name": "Estuco Profesional Acrílico Listo para Usar (Interior & Exterior)",
+      "category": "PREPARACION_SUPERFICIES",
+      "categoryLabel": "Preparación de Superficies",
+      "surfaceCompatibility": [
+        "concreto",
+        "revoque",
+        "mamposteria"
+      ],
+      "yieldM2PerGal": 15,
+      "recommendedCoats": 2,
+      "unit": "CUÑETE",
+      "stockQty": 119,
+      "unitPriceCop": 58000,
+      "description": "Pasta blanca acrílica de excelente trabajabilidad para alisar y preparar muros antes de pintar. No se descuelga y facilita el lijado uniforme.",
+      "image": "/images/product_elastic_putty_sealant_1790441031038.jpg",
+      "rating": 4.7,
+      "features": [
+        "Listo para usar sin mezclas",
+        "Fácil lijado sin polvo excesivo",
+        "Blanco óptico de alta pureza"
+      ],
+      "availableColors": [
+        {
+          "id": "blanco-optico",
+          "name": "Blanco Óptico",
+          "hex": "#FFFFFF",
+          "border": "#E2E8F0",
+          "isAvailable": true
+        },
+        {
+          "id": "blanco-hueso-estuco",
+          "name": "Blanco Hueso",
+          "hex": "#F5F5F0",
+          "border": "#E2E8F0",
+          "isAvailable": true
+        },
+        {
+          "id": "gris-base-fina",
+          "name": "Gris Base Fina",
+          "hex": "#E2E8F0",
+          "isAvailable": true
+        },
+        {
+          "id": "marfil-suave",
+          "name": "Marfil Suave",
+          "hex": "#FEF9C3",
+          "isAvailable": false
+        },
+        {
+          "id": "cemento-claro",
+          "name": "Cemento Claro",
+          "hex": "#CBD5E1",
+          "isAvailable": false
+        }
+      ],
+      "stockGalon": 41,
+      "stockCunete": 14,
+      "stockCuarto": 32
+    }
+  ],
+  "updatedAt": "2026-10-09T14:47:53.982Z"
+}

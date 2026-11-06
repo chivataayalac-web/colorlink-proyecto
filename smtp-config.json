@@ -1,0 +1,8 @@
+{
+  "host": "smtp-relay.brevo.com",
+  "port": 587,
+  "secure": false,
+  "user": "bbe47b001@smtp-brevo.com",
+  "pass": "bsk96R3ZIe58T6B",
+  "from": "COLORLINK Oficial <chivataayalac@gmail.com>"
+}
